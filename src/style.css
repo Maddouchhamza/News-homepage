@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fzejfiozefj{
+    color: hsl(5, 85%, 63%)
+    hsl(35, 77%, 62%)
+    hsl(36, 100%, 99%)
+    hsl(233, 8%, 79%)
+    hsl(236, 13%, 42%)
+    hsl(240, 100%, 5%)
+}
+
