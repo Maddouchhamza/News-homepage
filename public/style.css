@@ -758,15 +758,6 @@ video {
   color: hsl(5 85% 63% / var(--tw-text-opacity));
 }
 
-.fzejfiozefj{
-  color: hsl(5, 85%, 63%)
-    hsl(35, 77%, 62%)
-    hsl(36, 100%, 99%)
-    hsl(233, 8%, 79%)
-    hsl(236, 13%, 42%)
-    hsl(240, 100%, 5%)
-}
-
 @media (min-width: 1024px){
   .lg\:block{
     display: block;
@@ -776,4 +767,3 @@ video {
     display: none;
   }
 }
-
