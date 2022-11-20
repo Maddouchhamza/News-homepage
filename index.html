@@ -15,14 +15,23 @@
 
 <body class="p-5 lg:px-40 lg:py-16 lg:relative">
 
-  <header class="lg:flex lg:items-start lg:justify-between">
+  <header class="flex lg:items-start justify-between">
     <img src="./public/assets/images/logo.svg" class="pb-9 pt-3 w-14 lg:w-16" alt="logo">
+    <!-- Desktop navigation -->
     <div class="hidden lg:block pt-4 lg:text-Dark-grayish-blue lg:font-medium">
       <a href="#" class="lg:pl-10 lg:hover:text-Soft-red">Home</a>
       <a href="#" class="lg:pl-10 lg:hover:text-Soft-red">New</a>
       <a href="#" class="lg:pl-10 lg:hover:text-Soft-red">Popular</a>
       <a href="#" class="lg:pl-10 lg:hover:text-Soft-red">Trending</a>
       <a href="#" class="lg:pl-10 lg:hover:text-Soft-red">Categories</a>
+    </div>
+    <!-- Mobile navigation -->
+    <div class="lg:hidden w-11 mt-5">
+      <a href="#" class="">
+        <div class="border-2 mb-1 border-Very-dark-blue bg-Very-dark-blue"></div>
+        <div class="border-2 mb-1 border-Very-dark-blue bg-Very-dark-blue"></div>
+        <div class="border-2 mb-1 border-Very-dark-blue bg-Very-dark-blue"></div>
+      </a>
     </div>
   </header>
 
